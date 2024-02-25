@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-links {
+  @apply text-blue-600;
+}
+
+.nav-active {
+  @apply text-blue-500;
+}
