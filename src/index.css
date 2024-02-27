@@ -1,14 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.navs {
-    @apply relative ml-10 tracking-[1px] hover:text-white
-}
-
-.navs::after {
-    @apply content-[''] bg-indigo-400 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
-}
-
-.navs:hover::after {
-    @apply w-[100%]
-}

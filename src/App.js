@@ -1,14 +1,13 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar.js";
+import Foot from "./components/Foot"
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div className="bg-gray-200 w-full h-screen"></div>
-      <Footer />
-    </div>
-   
+    <>
+      <Navbar />
+      <div className="bg-slate-200 w-full h-screen"> </div>
+      <Foot />
+    </>
   );
 }
 
